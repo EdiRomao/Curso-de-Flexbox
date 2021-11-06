@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fundamento sobre Wrap</title>
+
+        <style>
+                .flex-container{
+
+                    height: 150px;
+                    display: flex;
+                    border: 2px solid black;
+                    max-width: 500px;
+                    flex-direction: column;
+
+
+                }
+                .item{
+
+                    font-size: 24px;
+                    height: 50%;
+                    text-align: center;
+                    min-width: 100px;
+                    line-height: 50px;
+                }
+                .nowrap{
+
+                        flex-wrap: nowrap;
+
+                }
+                .wrap{
+
+                    flex-wrap: wrap;
+
+                }
+                .wrap-reverse{
+
+                    flex-wrap: wrap-reverse;
+                }
+                .orange{
+
+                    background-color: orange;
+
+                }
+                .green{
+
+                    background-color: green;
+                }
+                .yellow{
+
+                    background-color: yellow;
+                }
+                .blue{
+                    background-color: blue;
+
+                }
+
+        </style>
+
+</head>
+<body>
+    <h1> No Wrap</h1>
+    <div class="flex-container nowrap">
+        <di class="item orange">I</di>
+        <di class="item green">II</di>
+        <di class="item yellow">III</di>
+    </div>  
+    
+    <h1>Wrap</h1>
+    <div class="flex-container wrap">
+        <di class="item orange">1</di>
+        <di class="item green">2</di>
+        <di class="item yellow">3</di>
+        <di class="item blue">4</di>
+    </div>
+
+    <h1>No Wrap-Reverce</h1>
+    <div class="flex-container wrap-reverse">
+        <di class="item orange">A</di>
+        <di class="item green">B</di>
+        <di class="item yellow">C</di>
+        <di class="item blue">D</di>
+    </div>    
+    
+</body>
+</html>
