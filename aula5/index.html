@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fundamentos sobre Justifay Contente</title>
+
+        <style>
+                .flex-container{
+
+                        max-width: 400px;
+                        border: 1px solid black;
+                        display: flex;
+
+                }
+                .flex-start{
+
+                    justify-content:  column flex-start;
+                }
+                .flex-and{
+
+                    justify-content: flex-end;
+                }
+                .space-between{
+
+                    justify-content: space-between;
+                }
+                .space-around{
+                    justify-content: space-around;
+
+                }
+                .item{
+
+                        background-color: violet;
+                        margin: 5px;
+                        text-align: center;
+                        color: white;
+
+
+                }
+
+        </style>
+
+</head>
+<body>
+    
+    <p> Utilizando o flex-start</p>
+        <section class="flex-container flex-start">
+            <div class="item">Menu</div>
+            <div class="item">Sobre</div>
+            <div class="item">Dicas</div>
+            <div class="item">Ver</div>
+
+        </section>
+
+        <p> Utilizando o flex-and</p>
+        <section class="flex-container flex-and">
+            <div class="item">Menu</div>
+            <div class="item">Sobre</div>
+            <div class="item">Dicas</div>
+            <div class="item">Ver</div>
+
+        </section>
+        
+        <p> Utilizando o space-between</p>
+        <section class="flex-container space-between">
+            <div class="item">Menu</div>
+            <div class="item">Sobre</div>
+            <div class="item">Dicas</div>
+            <div class="item">Ver</div>
+
+        </section>
+        <p> Utilizando o space-around</p>
+        <section class="flex-container space-between">
+            <div class="item">Menu</div>
+            <div class="item">Sobre</div>
+            <div class="item">Dicas</div>
+            <div class="item">Ver</div>
+
+        </section>
+
+
+
+</body>
+</html>
