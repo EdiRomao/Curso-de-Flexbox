@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fundamentos sobre Alin items</title>
+
+    <style>
+
+            .container{
+
+                max-width: 350px;
+                border: 1px solid black;
+                display: flex;
+
+            }
+            .item{
+
+                background-color: blueviolet;
+                margin: 3px;
+                color: #fff;
+                text-align: center;
+                flex: 1;
+
+            }
+            .flex{
+                flex: 1;
+            }
+            .center{
+                align-items: center;
+            }
+            .stretch{
+                align-items: stretch; 
+
+            }
+            .start{
+                align-items: flex-start;
+
+            }
+            .end{
+
+                align-items: flex-end;
+            }
+            .baseline{
+
+                align-items: baseline;
+            }
+            .central{
+                height: 300px;
+                justify-content: center;
+            }
+            .central.item{
+
+                flex: 0;
+                
+            }
+
+    </style>
+</head>
+<body>
+    <h1> Elemntos que fazem parte do metodo alin-items #45effdeygf4 &complement;</h1>
+    
+    <p> center</p>
+        <section class="container center">
+            <div class="item">Menu Principal</div>
+            <div class="item">Sobre nos</div>
+            <div class="item">Contacto</div>
+            <div class="item">OBS</div>
+
+        </section>
+
+        <p> stretch</p>
+        <section class="container  stretch">
+            <div class="item">Menu Principal</div>
+            <div class="item">Sobre nos</div>
+            <div class="item">Contacto</div>
+            <div class="item">OBS</div>
+
+        </section>
+        <p> Flex-start</p>
+        <section class="container start">
+            <div class="item">Menu Principal</div>
+            <div class="item">Sobre nos</div>
+            <div class="item">Contacto sempre andando sim</div>
+            <div class="item">OBS anterior mente em ninja go</div>
+
+        </section>
+        <p> Flex-and: alinhar os dados para parte de baixo</p>
+        <section class="container  end">
+            <div class="item">Menu Principal</div>
+            <div class="item">Sobre nos é o resto mais resto</div>
+            <div class="item">Contacto Lorem ipsum, d ametuaceat alias!</div>
+            <div class="item">OBS</div>
+
+        </section>
+        <p>Basline</p>
+        <section class="container baseline">
+            <div class="item">Menu Principal</div>
+            <div class="item">Sobre nos</div>
+            <div class="item">Contacto</div>
+            <div class="item">OBS</div>
+
+        </section>
+        <section class="container central">
+            <div class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt amet dolor eos omnis beatae praesentium, quisquam quia debitis. Officiis dicta, aspernatur doloribus iusto sit maiores obcaecati eligendi error? Debitis, odit!</div>
+        </section>
+</body>
+</html>
